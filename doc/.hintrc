@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "font-size: xxx-large",
+          "-webkit-tap-highlight-color",
+          "-webkit-overflow-scrolling",
+          "user-select",
+          "overscroll-behavior",
+          "overflow-wrap: anywhere",
+          "scrollbar-width",
+          "scrollbar-color",
+          "min-height: auto"
+        ]
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ]
+  }
+}
